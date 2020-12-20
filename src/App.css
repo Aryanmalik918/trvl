@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.products,
+.sign-up {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.services {
+    background-image: url('https://wonderfulengineering.com/wp-content/uploads/2016/01/nature-wallpapers-38.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+}
+
+.products {
+    background-image: url('https://i.pinimg.com/originals/ca/a2/65/caa2654e79e2dc88c6a3c18e1a353452.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+}
+
+.sign-up {
+    background-image: url('https://webneel.com/wallpaper/sites/default/files/images/08-2018/3-nature-wallpaper-mountain.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+}
